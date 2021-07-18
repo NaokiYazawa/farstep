@@ -1,7 +1,11 @@
+import Header from '../components/Header'
+import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+
 export default function Home() {
   return (
-    <div className="text-blue-500">
-      <h1>Hello</h1>
+    <div>
+      <Layout />
     </div>
   )
 }
